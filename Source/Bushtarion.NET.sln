@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B1B4D06C-5AB7-4C77-A3EF-31171732E997}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{708A777D-D24F-44DD-A6DC-356E35A115A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F85E3601-718F-4ADC-A321-435E814573A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1BB0A7FB-5807-4434-8624-4B292BA01DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bushtarion.Data", "Data\Bushtarion.Data\Bushtarion.Data.csproj", "{6D2ED387-3360-4DAD-8774-EB9C5F0051A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bushtarion.Data.Models", "Data\Bushtarion.Data.Models\Bushtarion.Data.Models.csproj", "{0426C077-87B5-4E63-B087-41932CBFFFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bushtarion.Data.Common", "Data\Bushtarion.Data.Common\Bushtarion.Data.Common.csproj", "{B0D52750-6912-43A0-9D52-AD4AFA9D036D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bushtarion.Web", "Web\Bushtarion.Web\Bushtarion.Web.csproj", "{2EFE5010-6DF1-4D20-96FB-B1D670800FD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D2ED387-3360-4DAD-8774-EB9C5F0051A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2ED387-3360-4DAD-8774-EB9C5F0051A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2ED387-3360-4DAD-8774-EB9C5F0051A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2ED387-3360-4DAD-8774-EB9C5F0051A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0426C077-87B5-4E63-B087-41932CBFFFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0426C077-87B5-4E63-B087-41932CBFFFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0426C077-87B5-4E63-B087-41932CBFFFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0426C077-87B5-4E63-B087-41932CBFFFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D52750-6912-43A0-9D52-AD4AFA9D036D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D52750-6912-43A0-9D52-AD4AFA9D036D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D52750-6912-43A0-9D52-AD4AFA9D036D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D52750-6912-43A0-9D52-AD4AFA9D036D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFE5010-6DF1-4D20-96FB-B1D670800FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFE5010-6DF1-4D20-96FB-B1D670800FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFE5010-6DF1-4D20-96FB-B1D670800FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFE5010-6DF1-4D20-96FB-B1D670800FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D2ED387-3360-4DAD-8774-EB9C5F0051A6} = {B1B4D06C-5AB7-4C77-A3EF-31171732E997}
+		{0426C077-87B5-4E63-B087-41932CBFFFD7} = {B1B4D06C-5AB7-4C77-A3EF-31171732E997}
+		{B0D52750-6912-43A0-9D52-AD4AFA9D036D} = {B1B4D06C-5AB7-4C77-A3EF-31171732E997}
+		{2EFE5010-6DF1-4D20-96FB-B1D670800FD1} = {708A777D-D24F-44DD-A6DC-356E35A115A1}
+	EndGlobalSection
+EndGlobal
