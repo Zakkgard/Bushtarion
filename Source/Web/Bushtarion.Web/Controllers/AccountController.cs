@@ -5,12 +5,13 @@
     using System.Web;
     using System.Web.Mvc;
 
+    using Bushtarion.Data.Models;
     using Bushtarion.Web.ViewModels.Account;
 
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
-    using Data.Models;
+
     [Authorize]
     public class AccountController : Controller
     {
