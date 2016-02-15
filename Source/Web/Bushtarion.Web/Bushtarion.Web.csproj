@@ -314,6 +314,10 @@
       <Project>{6d2ed387-3360-4dad-8774-eb9c5f0051a6}</Project>
       <Name>Bushtarion.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Bushtarion.Web.Infrastructure\Bushtarion.Web.Infrastructure.csproj">
+      <Project>{ae736ea0-390e-408d-ba31-bd44764f6fb6}</Project>
+      <Name>Bushtarion.Web.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

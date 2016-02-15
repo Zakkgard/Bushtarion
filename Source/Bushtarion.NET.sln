@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bushtarion.Web", "Web\Busht
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{6B98590D-A493-4BA9-AC3F-F8BA29511D69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bushtarion.Web.Infrastructure", "Web\Bushtarion.Web.Infrastructure\Bushtarion.Web.Infrastructure.csproj", "{AE736EA0-390E-408D-BA31-BD44764F6FB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{2EFE5010-6DF1-4D20-96FB-B1D670800FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EFE5010-6DF1-4D20-96FB-B1D670800FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EFE5010-6DF1-4D20-96FB-B1D670800FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE736EA0-390E-408D-BA31-BD44764F6FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE736EA0-390E-408D-BA31-BD44764F6FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE736EA0-390E-408D-BA31-BD44764F6FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE736EA0-390E-408D-BA31-BD44764F6FB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +58,6 @@ Global
 		{0426C077-87B5-4E63-B087-41932CBFFFD7} = {B1B4D06C-5AB7-4C77-A3EF-31171732E997}
 		{B0D52750-6912-43A0-9D52-AD4AFA9D036D} = {B1B4D06C-5AB7-4C77-A3EF-31171732E997}
 		{2EFE5010-6DF1-4D20-96FB-B1D670800FD1} = {708A777D-D24F-44DD-A6DC-356E35A115A1}
+		{AE736EA0-390E-408D-BA31-BD44764F6FB6} = {708A777D-D24F-44DD-A6DC-356E35A115A1}
 	EndGlobalSection
 EndGlobal
